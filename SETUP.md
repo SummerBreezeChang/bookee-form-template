@@ -10,7 +10,7 @@ are optional and skipped automatically if you leave their keys blank.
 
 ## 0. Prerequisites
 
-- Node.js 18+ and Git
+- Node.js 20+ and Git
 - A GitHub account (to deploy via Vercel)
 - Accounts you'll create below: Notion, Google Cloud, Dograh, (optional) Stripe, Twilio, Anthropic
 

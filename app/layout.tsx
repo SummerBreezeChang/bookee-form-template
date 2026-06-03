@@ -21,10 +21,10 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
   title: "Bookee - Turn Your Website Into a Smart Booking Assistant",
   description:
     "A website that doesn't just take info—it starts with a conversation. Bookee handles customer bookings and answers questions 24/7 with AI-powered conversational agents.",
-  generator: "v0.app",
   icons: {
     icon: "/favicon.png",
   },
