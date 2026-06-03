@@ -2,6 +2,8 @@
   "name": "bookee-form-template",
   "version": "0.1.0",
   "private": true,
+  "author": "Summer Chang (https://www.linkedin.com/in/summerchang/)",
+  "license": "MIT",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
