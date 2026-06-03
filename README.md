@@ -60,6 +60,26 @@ That's it — no `.env` file or secrets needed to run the template.
 
 ---
 
+## Wiring up the full booking system
+
+Want the complete experience — an AI voice agent that **calls your leads**, a
+**calendar**, a **Notion database**, and **Stripe** deposits? See
+**[SETUP.md](./SETUP.md)** for a step-by-step guide covering every service:
+
+| Service | Role | Account |
+| --- | --- | --- |
+| **Notion** | Stores leads / bookings | notion.so |
+| **Dograh** | AI voice agent that calls the lead | dograh.com |
+| **Twilio** | Phone number the agent calls from | twilio.com |
+| **Google Calendar** | Writes confirmed bookings | console.cloud.google.com |
+| **Stripe** | Collects the setup deposit | stripe.com |
+
+Copy **[`.env.example`](./.env.example)** to `.env.local` and fill in the keys for
+the services you use (`cp .env.example .env.local`). The app runs fine with none
+of them set.
+
+---
+
 ## Making it yours
 
 Everything you need to customize lives in a handful of files:
