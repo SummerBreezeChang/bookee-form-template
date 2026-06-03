@@ -93,6 +93,9 @@ meeting_time, call_outcome` (`booked` | `no_answer` | `opted_out` |
 `callback_requested` | `voicemail`), `duration` (sec), `recording_url`,
 `transcript_url`, plus the `notion_page_id` you passed in.
 
+**Starter agent prompts:** ready-to-use demo + setup agent prompts and the full
+tool/webhook config are in **[docs/dograh-agents.md](./docs/dograh-agents.md)**.
+
 ### Google Calendar
 
 OAuth2 with a long-lived **refresh token** (run `scripts/get-google-refresh-token.mjs`
@@ -181,6 +184,15 @@ lib/
 scripts/
   get-google-refresh-token.mjs        one-time OAuth token generator
 ```
+
+## Author
+
+Built by **Summer Chang** — [LinkedIn](https://www.linkedin.com/in/summerchang/)
+
+Questions, or want Bookee set up for you? Reach out on LinkedIn — happy to help.
+
+<!-- Logo: drop your image into public/ and reference it here, e.g.
+     ![Bookee](public/your-logo.png) -->
 
 ## License
 
