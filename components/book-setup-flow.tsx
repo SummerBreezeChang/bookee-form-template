@@ -13,7 +13,7 @@ import { createSetupCheckout } from "@/app/actions/create-setup-checkout"
 import { EASE } from "@/components/motion/reveal"
 
 const CONSENT_TEXT =
-  "I agree to receive an automated call from Bookee at the number I provide to schedule my setup call. The call will come from +1 (510) 681-0766. Consent is not a condition of purchase, and message and data rates may apply."
+  "I agree to receive an automated call from Bookee at the number I provide to schedule my setup call. Consent is not a condition of purchase, and message and data rates may apply."
 
 // How long the Done-For-You card lingers at center before it zooms into the form.
 const CENTER_HOLD_MS = 850

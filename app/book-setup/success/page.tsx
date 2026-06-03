@@ -1,8 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { CheckCircle2, PhoneCall } from "lucide-react"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 
 export const metadata: Metadata = {
@@ -12,7 +10,6 @@ export const metadata: Metadata = {
 export default function SetupSuccessPage() {
   return (
     <main className="min-h-screen bg-background">
-      <Header />
       <section className="bg-background px-6 md:px-12 lg:px-20 py-24 md:py-32">
         <div className="mx-auto max-w-2xl text-center">
           <span className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-pale">
@@ -30,7 +27,7 @@ export default function SetupSuccessPage() {
               <PhoneCall className="h-5 w-5" />
             </span>
             <p className="text-sm text-foreground">
-              <span className="font-semibold">Bookee will call you shortly</span> from +1 (510) 681-0766 to lock in a
+              <span className="font-semibold">Bookee will call you shortly</span> to lock in a
               time. Keep your phone close.
             </p>
           </div>
@@ -42,7 +39,6 @@ export default function SetupSuccessPage() {
           </div>
         </div>
       </section>
-      <Footer />
     </main>
   )
 }

@@ -12,7 +12,7 @@ import { CropFrame, SectionLabel } from "@/components/spade-ui"
 import { Reveal } from "@/components/motion/reveal"
 
 const CONSENT_TEXT =
-  "I agree to receive an automated demo call at the number I provided. The call will come from +1 (510) 681-0766 — that's Bookee's number, so you'll know it's us. Consent is not a condition of purchase, and message and data rates may apply."
+  "I agree to receive an automated demo call at the number I provided. Consent is not a condition of purchase, and message and data rates may apply."
 
 export function DemoSection() {
   const [isLoading, setIsLoading] = useState(false)

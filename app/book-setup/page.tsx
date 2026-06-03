@@ -1,6 +1,4 @@
 import type { Metadata } from "next"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
 import { BookSetupFlow } from "@/components/book-setup-flow"
 
 export const metadata: Metadata = {
@@ -16,9 +14,7 @@ export default async function BookSetupPage({
   const params = await searchParams
   return (
     <main className="min-h-screen bg-background">
-      <Header />
       <BookSetupFlow canceled={params.canceled === "1"} />
-      <Footer />
     </main>
   )
 }
